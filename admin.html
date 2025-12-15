@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Guarda Escolar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Cadastro de Escola</h2>
+
+<input id="nomeEscola" placeholder="Nome da escola">
+<button onclick="salvarEscola()">Salvar Escola</button>
+
+<div id="listaEscolas"></div>
+
+<!-- Firebase -->
+<script type="module" src="js/firebase.js"></script>
+
+<!-- QR Code -->
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+
+<script type="module" src="js/admin.js"></script>
+
+</body>
+</html>
